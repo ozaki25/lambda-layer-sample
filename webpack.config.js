@@ -11,6 +11,7 @@ module.exports = {
   },
   mode: 'development',
   target: 'node',
+  externals: ['chrome-aws-lambda'],
   module: {
     rules: [
       {
