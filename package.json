@@ -6,7 +6,7 @@
     "invoke": "sls invoke local -f hello",
     "invoke:aws": "sls invoke -f hello",
     "deploy": "sls deploy",
-    "predeploy": "yarn add chrome-aws-lambda puppeteer-core --modules-folder ./layers/nodejs/node_modules"
+    "predeploy": "yarn --cwd ./layers/nodejs"
   },
   "dependencies": {
     "puppeteer-core": "^3.0.0"
