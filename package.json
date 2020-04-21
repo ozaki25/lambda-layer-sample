@@ -8,9 +8,7 @@
     "deploy": "sls deploy",
     "predeploy": "yarn --cwd ./layers/nodejs"
   },
-  "dependencies": {
-    "puppeteer-core": "^3.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
